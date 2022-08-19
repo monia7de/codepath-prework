@@ -11,9 +11,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //TextField.returnKeyType = .done
-        //TextField.autocorrectionType = .no
-        TextField.becomeFirstResponder()
+       // TextField.returnKeyType = .done
+       // TextField.autocorrectionType = .no
+        //TextField.becomeFirstResponder()
         
         
         // Do any additional setup after loading the view.
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
     @IBAction func ChangeTextMessageClicked(_ sender: Any) {
         //print("hello1")
         changeMessageText()
-        TextField.resignFirstResponder()
+        //TextField.resignFirstResponder()
     }
     
     // -------- Button: Change text message color --------
@@ -67,9 +67,9 @@ class ViewController: UIViewController {
 
     
     // -------- Text Field Action --------
-    @IBAction func TextField(_ sender: Any) {
+   // @IBAction func TextField(_ sender: Any) {
            
-    }
+   // }
     
     
     
